@@ -1,0 +1,20 @@
+/* ## Accessible Menu
+--------------------------------------------- */
+
+.menu .menu-item {
+  &:focus {
+    position: static;
+  }
+
+  > a:focus + ul.sub-menu,
+  &.sfHover > ul.sub-menu {
+    left: auto;
+    opacity: 1;
+  }
+}
+
+.sub-menu-toggle,
+.menu-toggle {
+  display: none;
+  visibility: hidden;
+}

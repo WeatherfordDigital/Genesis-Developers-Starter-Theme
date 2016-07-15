@@ -1,10 +1,6 @@
-//
-// Component Modules
-//===============================
+/* # Widgets
+---------------------------------------------------------------------------------------------------- */
 
-@import "comments/index";
-@import "entry/index";
-@import "footer/index";
-@import "header/index";
-@import "navigation/index";
-@import "widgets/index";
+@import "base";
+@import "calendar";
+@import "featured-content";
