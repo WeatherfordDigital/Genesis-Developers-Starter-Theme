@@ -1,7 +1,7 @@
-/* ## After Header Navigation
+/* ## Primary Navigation
 --------------------------------------------- */
 
 .nav-primary {
   background-color: $primaryNav__BackgroundColor;
-  border-top: 1px solid #eee;
+  border-top: 1px solid $primaryNav__BorderColor;
 }

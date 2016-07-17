@@ -10,11 +10,38 @@ $body__backgroundColor: #eee;
 
 $nav__LinkColor: #333;
 
+//
+// Navigation Colors
+//============================
+$nav__LinkColor: #333;
+$nav__HoverColor: #c3251d;
+$submenu__BorderColor: #eee;
+$submenu__LinkBackgroundColor: $white;
+
 $primaryNav__BackgroundColor: $white;
+$primaryNav__BorderColor: #eee;
 $primaryNav__LinkColor: $nav__LinkColor;
+
 $secNav__BackgroundColor: $white;
+$secNav__BorderColor: #eee;
 $secNav__LinkColor: $nav__LinkColor;
 
+$jsNav__BackgroundColor: $white;
+$jsNav__HoverColor: $black;
+$jsNav__FocusColor: #c3251d;
+
+$navToggle__BackgroundColor: $white;
+$navToggle__Color: #333;
+
+$archivePagination__BackgroundColor: $white;
+$archivePagination__Color: #333;
+$archivePagination__HoverBackgroundColor: #c3251d;
+$archivePagination__HoverColor: $white;
+
+
+//
+// Navigation Colors
+//============================
 $siteHeader__BackgroundColor: $white;
 $siteFooter__BackgroundColor: $white;
 $footerWidgets__BackgroundColor: $white;
