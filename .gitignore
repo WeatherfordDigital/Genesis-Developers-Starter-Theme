@@ -4,7 +4,6 @@ phpunit.xml
 /bin
 tests/mocks/env/
 
-
 # Sass cache
 .sass-cache/
 
@@ -13,5 +12,3 @@ tests/mocks/env/
 /assets/vendor/
 
 .idea/
-
-_keep-old/

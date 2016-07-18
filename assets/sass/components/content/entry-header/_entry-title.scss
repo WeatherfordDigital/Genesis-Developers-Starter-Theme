@@ -1,0 +1,17 @@
+//
+// Entry Title
+//======================
+
+.entry-title {
+  font-size: rem( $entryTitle__FontSize );
+
+  a {
+    color: $entryTitle__LinkColor;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: $entryTitle__HoverColor;
+    }
+  }
+}

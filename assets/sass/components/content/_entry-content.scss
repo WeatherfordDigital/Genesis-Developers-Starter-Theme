@@ -1,11 +1,5 @@
-/* ## Entries
+/* ## Entry Content
 --------------------------------------------- */
-
-.entry {
-  background-color: #fff;
-  margin-bottom: 40px;
-  padding: 70px 80px;
-}
 
 .entry-content {
   ol, ul {
@@ -27,7 +21,7 @@
   }
 
   code {
-    background-color: #333;
-    color: #eee;
+    background-color: $entryContent__Code__BackgroundColor;
+    color: $entryContent__Code__Color;
   }
 }
