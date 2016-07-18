@@ -1,6 +1,6 @@
 # Genesis Developer's Starter Child Theme
 
-This is a developer-friend starter child theme for the Genesis framework which includes a modular architecture, Sass, gulp, Bourbon, Neat, and Composer.  It is your starting child theme for all of your projects to save you time and moola. 
+This is a developer-friendly starter child theme for the [Genesis theming framework](http://my.studiopress.com/themes/genesis/) which includes a modular architecture, Sass, gulp, Bourbon, Neat, and Composer.  It is your starting child theme for all of your projects to save you time and moola. 
 
 To see the entire lab series which built this child theme, go to: [Let’s Build a Custom Developer’s Genesis Starter Child Theme](https://knowthecode.io/labs-guide/lets-build-custom-developers-genesis-starter-child-theme).
 
@@ -20,8 +20,8 @@ This theme includes the following features:
 
 This child theme requires the following dependencies:
 
-- The Genesis framework
-- WordPress
+- [Genesis framework](http://my.studiopress.com/themes/genesis/)
+- [WordPress](https://wordpress.org/download/)
 
 ## Customization
 
