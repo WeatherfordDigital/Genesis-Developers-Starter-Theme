@@ -1,35 +1,32 @@
 /* ## Genesis eNews Extended
 --------------------------------------------- */
-.sidebar .widget.enews-widget {
-  background-color: #333;
-}
 .sidebar .enews-widget {
+  background-color: $enews__BackgroundColor;
 
   &, .widget-title {
-    color: $white;
+    color: $enews__Color;
   }
 
   input,
   input:focus {
-    border: 1px solid #333;
+    border: 1px solid $enews__InputBorderColor;
   }
 
   input[type="submit"] {
-    background-color: #c3251d;
-    color: #fff;
+    background-color: $enews__submitButton__BackgroundColor;
+    color: $enews__submitButton__Color;
   }
 
   input:hover[type="submit"],
   input:focus[type="submit"]  {
-    background-color: #fff;
-    color: #333;
+    background-color: $enews__submitButton__BackgroundHoverColor;
+    color: $enews__submitButton__HoverColor;
   }
 }
 
 .enews-widget {
   input {
-    font-size: 16px;
-    font-size: 1.6rem;
+    font-size: rem( $enews__FontSize );
     margin-bottom: 16px;
 
     &[type="submit"] {
