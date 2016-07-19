@@ -2,22 +2,3 @@
 // Breakpoints
 //============================
 
-/// Standard Media Query Breakpoints
-/// @group wds
-
-$large-desktop: rem(1680);
-$desktop: rem(1366);
-$tablet-landscape: rem(1024);
-$wp-admin-bar: rem(783);
-$tablet-portrait: rem(768);
-$phone-landscape: rem(640);
-$phone-portrait: rem(360);
-
-// Global Screen Sizes
-//------------------------------------------------------------------------------
-$smallestScreen: $maxWidth - 820px; // 320px;
-$smallerScreen: $maxWidth - 660px; // 480px;
-$smallScreen: $maxWidth - 380px; // 760px;
-$mediumScreen: $maxWidth - 117px; // 1023px
-$largeScreen: $maxWidth + 40px; // 1180px
-$hugeScreen: $maxWidth + 460px; // 1600px
