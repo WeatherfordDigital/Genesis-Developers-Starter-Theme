@@ -7,38 +7,32 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: $headings__FontFamily;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: $headings__LineHeight;
   margin: 0 0 10px;
 }
 
 h1 {
-  font-size: 36px;
-  font-size: 3.6rem;
+  font-size: rem( $h1__FontSize );
 }
 
 h2 {
-  font-size: 30px;
-  font-size: 3rem;
+  font-size: rem( $h2__FontSize );
 }
 
 h3 {
-  font-size: 24px;
-  font-size: 2.4rem;
+  font-size: rem( $h3__FontSize );
 }
 
 h4 {
-  font-size: 20px;
-  font-size: 2rem;
+  font-size: rem( $h4__FontSize );
 }
 
 h5 {
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: rem( $h5__FontSize );
 }
 
 h6 {
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: rem( $h6__FontSize );
 }

@@ -62,9 +62,9 @@
   border: 1px solid #eee;
   height: auto;
   padding: 4px;
-}
 
-.gallery img:hover,
-.gallery img:focus {
-  border: 1px solid #999;
+  &:hover,
+  &:focus {
+    border: 1px solid #999;
+  }
 }

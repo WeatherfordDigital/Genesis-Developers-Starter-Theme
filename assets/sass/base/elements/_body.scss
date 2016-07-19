@@ -1,0 +1,28 @@
+
+html {
+  font-size: $html__FontSize; /* 10px browser default */
+}
+
+body {
+  background-color: $body__backgroundColor;
+  color: $base__color;
+  font-family: $base__FontFamily;
+  font-size: rem( $base__FontSize );
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  line-height: $base__LineHeight;
+  margin: 0;
+
+  @media only screen and (max-width: $smallScreen) {
+    font-size: $base__FontSize__SmallScreen;
+  }
+
+  /* Chrome fix */
+  > div {
+    font-size: $baseDiv__FontSize;
+
+    @media only screen and (max-width: $smallScreen) {
+      font-size: $baseDiv__FontSize;
+    }
+  }
+}

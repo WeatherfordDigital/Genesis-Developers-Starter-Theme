@@ -1,4 +1,31 @@
 
+// Common Fonts
+$fontFamily__SourceSansPro: 'Source Sans Pro', sans-serif;
+
+// Base Typography
+$html__FontSize: 62.5%;
+$base__FontFamily: $fontFamily__SourceSansPro;
+$base__FontSize: 20;
+$base__FontSize__SmallScreen: 18;
+$baseDiv__FontSize: 2rem;
+$baseDiv__FontSize: 1.8rem;
+$base__LineHeight: 1.625;
+
+// Headings
+$headings__FontFamily: $fontFamily__SourceSansPro;
+$headings__LineHeight: 1.2;
+$h1__FontSize:  36;
+$h2__FontSize:  30;
+$h3__FontSize:  24;
+$h4__FontSize:  20;
+$h5__FontSize:  18;
+$h6__FontSize:  16;
+
+// Elements
+$blockquote__FontSize: 30;
+$input__FontSize: 18;
+$button__FontSize: 16;
+
 //
 // Navigation
 //===========
@@ -44,3 +71,13 @@ $featuredContent__EntryTitle__FontSize: 20;
 // Plugins
 //===================
 $enews__FontSize: 16;
+
+//
+// General Components
+//===================
+$breadcrumbs__FontSize: 16;
+$authorBox__FontSize: 18;
+$authorBox__Title__FontSize: 20;
+$afterEntry__FontSize: 18;
+$archiveDescription__FontSize: 18;
+$archive__Title__FontSize: 20;
