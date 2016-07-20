@@ -4,17 +4,17 @@
 .site-inner,
 .wrap {
   margin: 0 auto;
-  max-width: $maxWidth;
+  max-width: $max-width;
 
-  @media only screen and (max-width: $largerScreen) {
-    max-width: $maxWidth__LargerScreen;
+  @include media( $breakpoint__screen-size--larger ) {
+    max-width: $max-width-larger-screen;
   }
-  @media only screen and (max-width: $largeScreen) {
-    max-width: $maxWidth__LargeScreen;
+   @include media( $breakpoint__screen-size--large ) {
+    max-width: $max-width-large-screen;
   }
 
-  @media only screen and (max-width: $mediumScreen) {
-    max-width: $maxWidth__MediumScreen;
+   @include media( $breakpoint__screen-size--medium ) {
+    max-width: $max-width--medium-screen;
   }
 }
 
@@ -23,12 +23,12 @@
   padding-top: 40px;
   word-wrap: break-word;
 
-  @media only screen and (max-width: $smallScreen) {
+   @include media( $breakpoint__screen-size--small ) {
     padding: 5% 5% 0;
   }
 }
 
-@media only screen and (max-width: $smallScreen) {
+ @include media( $breakpoint__screen-size--small ) {
   .wrap {
     padding-left: 5%;
     padding-right: 5%;
@@ -36,5 +36,5 @@
 }
 
 .landing-page .site-inner {
-  max-width: $maxWidth__LandingPage;
+  max-width: $max-width__landing-page;
 }

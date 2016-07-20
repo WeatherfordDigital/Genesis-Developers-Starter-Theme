@@ -5,26 +5,22 @@
 	Description: The Genesis-powered Developer's Starter Child Theme
 	Author: hellofromTonya
 	Author URI: https://knowthecode.io
+
 	Version: 1.0.0
 
+	Tags: black, red, white, one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
 	Template: genesis
+	Template Version: 2.2.3
 
 	License: GPL-2.0+
 	License URI: http://www.opensource.org/licenses/gpl-license.php
 	Text Domain: developers
 */
 
+@import "utilities/index";
 @import "base/index";
 @import "layouts/index";
-@import "common-classes/index";
-@import "components/widgets/index";
+@import "components/index";
 @import "plugins/index";
-@import "components/accessibility/index";
-@import "components/header/index";
-@import "components/navigation/index";
-@import "components/content/index";
-@import "components/comments/index";
-@import "components/sidebars/index";
-@import "components/footer/index";
-
 @import "views/index";

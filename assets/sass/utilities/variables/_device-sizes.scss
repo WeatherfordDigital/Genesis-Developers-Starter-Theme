@@ -2,23 +2,10 @@
 // Device Screen Sizes
 //==========================
 
-$smallestScreen: 320px;
-$smallerScreen: 480px;
-$smallScreen: 860px;
-$mediumScreen: 1023px;
-$largeScreen: 1200px;
-$largerScreen: 1340px;
-$hugeScreen: 1600px;
-
-
-//
-// Standard Media Query Breakpoints
-// WebDevStudios wd_s
-//==========================
-$large-desktop: rem(1680);
-$desktop: rem(1366);
-$tablet-landscape: rem(1024);
-$wp-admin-bar: rem(783);
-$tablet-portrait: rem(768);
-$phone-landscape: rem(640);
-$phone-portrait: rem(360);
+$screen-size--smallest: 320px;
+$screen-size--smaller: 480px;
+$screen-size--small: 860px;
+$screen-size--medium: 1023px;
+$screen-size--large: 1200px;
+$screen-size--larger: 1340px;
+$screen-size--huge: 1600px;

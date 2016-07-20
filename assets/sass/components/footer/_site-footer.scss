@@ -2,9 +2,9 @@
 ---------------------------------------------------------------------------------------------------- */
 
 .site-footer {
-  background-color: $siteFooter__BackgroundColor;
-  border-top: 1px solid $siteFooter__BorderColor;
-  font-size: rem( $siteFooter__FontSize );
+  background-color: $siteFooter--background-color;
+  border-top: 1px solid $site-footer--border-color;
+  font-size: rem( $site-footer--font-size );
   line-height: 1;
   padding: 60px 0;
   text-align: center;

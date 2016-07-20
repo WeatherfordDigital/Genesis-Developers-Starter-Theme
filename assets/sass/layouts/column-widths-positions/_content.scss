@@ -2,27 +2,27 @@
 
 .content {
   float: right;
-  width: $content__Width;
+  width: $content--width;
 
-  @media only screen and (max-width: $largerScreen) {
-    width: $content__LargerScreenWidth;
+   @include media( $breakpoint__screen-size--larger ) {
+    width: $content--larger-screenWidth;
   }
 
-  @media only screen and (max-width: $largeScreen) {
-    width: $content__LargeScreenWidth;
+   @include media( $breakpoint__screen-size--large ) {
+    width: $content--large-screenWidth;
   }
 
   .content-sidebar-sidebar &,
   .sidebar-content-sidebar &,
   .sidebar-sidebar-content & {
-    width: $contentBothSidebars__Width;
+    width: $content-both-sidebars--width;
 
-    @media only screen and (max-width: $largerScreen) {
-      width: $contentBothSidebars__LargerScreenWidth;
+     @include media( $breakpoint__screen-size--larger ) {
+      width: $contentBothSidebars--larger-screenWidth;
     }
 
-    @media only screen and (max-width: $largeScreen) {
-      width: $contentBothSidebars__LargeScreenWidth;
+     @include media( $breakpoint__screen-size--large ) {
+      width: $contentBothSidebars--large-screenWidth;
     }
   }
 

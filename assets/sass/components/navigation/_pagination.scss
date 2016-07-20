@@ -26,11 +26,11 @@
   }
 
   a {
-    background-color: $archivePagination__BackgroundColor;
-    color: $archivePagination__Color;
+    background-color: $archive-pagination--background-color;
+    color: $archive-pagination--color;
     cursor: pointer;
     display: inline-block;
-    font-size: rem($archivePagination__FontSize);
+    font-size: rem($archive-pagination--font-size);
     font-weight: 600;
     padding: 8px 12px;
     text-decoration: none;
@@ -38,8 +38,8 @@
     &:hover,
     &:focus,
     .active & {
-      background-color: $archivePagination__HoverBackgroundColor;
-      color: $archivePagination__HoverColor;
+      background-color: $archive-pagination--hover-background-color;
+      color: $archive-pagination--hover-color;
     }
   }
 }

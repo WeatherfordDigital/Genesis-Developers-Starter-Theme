@@ -4,10 +4,10 @@
 input,
 select,
 textarea {
-  background-color: $input__BackgroundColor;
-  border: 1px solid $input__BorderColor;
-  color: $input__Color;
-  font-size: rem( $input__FontSize );
+  background-color: $input--background-color;
+  border: 1px solid $input--border-color;
+  color: $input--color;
+  font-size: rem( $input--font-size );
   font-weight: 400;
   padding: 16px;
   width: 100%;
@@ -15,7 +15,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border: 1px solid $input__FocusBorderColor;
+  border: 1px solid $input--focus-border-color;
   outline: none;
 }
 
@@ -26,12 +26,12 @@ input[type="radio"] {
 }
 
 ::-moz-placeholder {
-  color: $input__Color;
+  color: $input--color;
   opacity: 1;
 }
 
 ::-webkit-input-placeholder {
-  color: $input__Color;
+  color: $input--color;
 }
 
 button,
@@ -39,11 +39,11 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"],
 .button {
-  background-color: $button__BackgroundColor;
+  background-color: $button--background-color;
   border: 0;
-  color: $button__Color;
+  color: $button--color;
   cursor: pointer;
-  font-size: rem( $button__FontSize );
+  font-size: rem( $button--font-size );
   font-weight: 700;
   padding: 16px 24px;
   text-decoration: none;
@@ -61,13 +61,13 @@ input:focus[type="button"],
 input:focus[type="reset"],
 input:focus[type="submit"],
 .button:focus  {
-  background-color: $button__HoverBackgroundColor;
-  color: $button__HoverColor;
+  background-color: $button--hover-background-color;
+  color: $button--hover-color;
 }
 
 .entry-content .button:hover,
 .entry-content .button:focus {
-  color: $button__Color;
+  color: $button--color;
 }
 
 .button {
@@ -92,9 +92,9 @@ input[type="submit"].small {
   input[type="reset"]:disabled:hover,
   input[type="submit"]:disabled,
   input[type="submit"]:disabled:hover {
-    background-color: $button__DisabledBackgroundColor;
+    background-color: $button--disabled-background-color;
     border-width: 0;
-    color: $button__DisabledColor;
+    color: $button--disable-color;
     cursor: not-allowed;
   }
 }

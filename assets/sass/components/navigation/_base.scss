@@ -4,7 +4,7 @@
 
 .genesis-nav-menu {
   clear: both;
-  font-size: rem( $nav__FontSize );
+  font-size: rem( $nav--font-size );
   font-weight: 600;
   line-height: 1;
   width: 100%;
@@ -26,7 +26,7 @@
   }
 
   a {
-    color: $nav__LinkColor;
+    color: $nav--link-color;
     text-decoration: none;
     display: block;
     padding: 32px 20px;
@@ -37,12 +37,12 @@
   .current-menu-item > a,
   .sub-menu .current-menu-item > a:hover,
   .sub-menu .current-menu-item > a:focus {
-    color: $nav__HoverColor;
+    color: $nav--hover-color;
     text-decoration: underline;
   }
 
   .sub-menu {
-    border-top: 1px solid $submenu__BorderColor;
+    border-top: 1px solid $submenu--border-color;
     left: -9999px;
     opacity: 0;
     position: absolute;
@@ -51,10 +51,10 @@
     z-index: 99;
 
     a {
-      background-color: $submenu__LinkBackgroundColor;
-      border: 1px solid $submenu__BorderColor;
+      background-color: $submenu--link-background-color;
+      border: 1px solid $submenu--border-color;
       border-top: 0;
-      font-size: rem( $submenu__FontSize );
+      font-size: rem( $submenu--font-size );
       padding: 20px;
       position: relative;
       width: 200px;

@@ -1,7 +1,7 @@
 
 .archive-description {
-  background-color: $archiveDescription__BackgroundColor;
-  font-size: rem( $archiveDescription__FontSize );
+  background-color: $archive-description--background-color;
+  font-size: rem( $archive-description--font-size );
   margin-bottom: 40px;
   padding: 60px;
 
@@ -9,7 +9,7 @@
     margin-bottom: 0;
   }
 
-  @media only screen and (max-width: $smallScreen) {
+   @include media( $breakpoint__screen-size--small ) {
     padding: 30px;
     margin-bottom: 5%;
   }

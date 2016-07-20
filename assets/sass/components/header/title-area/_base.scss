@@ -5,7 +5,7 @@
 .title-area {
   float: left;
   padding: 10px 0;
-  width: $titleArea__Width;
+  width: $title-area--width;
 
   @media only screen and (max-width: 1023px) {
     width: 100%;

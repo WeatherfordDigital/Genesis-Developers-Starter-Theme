@@ -7,32 +7,32 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $headings__FontFamily;
+  font-family: $headings--font-family;
   font-weight: 600;
-  line-height: $headings__LineHeight;
+  line-height: $headings--line-height;
   margin: 0 0 10px;
 }
 
 h1 {
-  font-size: rem( $h1__FontSize );
+  font-size: rem( $h1--font-size );
 }
 
 h2 {
-  font-size: rem( $h2__FontSize );
+  font-size: rem( $h2--font-size );
 }
 
 h3 {
-  font-size: rem( $h3__FontSize );
+  font-size: rem( $h3--font-size );
 }
 
 h4 {
-  font-size: rem( $h4__FontSize );
+  font-size: rem( $h4--font-size );
 }
 
 h5 {
-  font-size: rem( $h5__FontSize );
+  font-size: rem( $h5--font-size );
 }
 
 h6 {
-  font-size: rem( $h6__FontSize );
+  font-size: rem( $h6--font-size );
 }

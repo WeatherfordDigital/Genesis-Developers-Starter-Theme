@@ -1,10 +1,10 @@
 .after-entry {
-  background-color: $afterEntry__BackgroundColor;
-  font-size: rem( $afterEntry__FontSize );
+  background-color: $after-entry--background-color;
+  font-size: rem( $after-entry--font-size );
   margin-bottom: 40px;
   padding: 60px;
 
-  @media only screen and (max-width: $smallScreen) {
+   @include media( $breakpoint__screen-size--small ) {
     padding: 30px;
     margin-bottom: 5%;
   }

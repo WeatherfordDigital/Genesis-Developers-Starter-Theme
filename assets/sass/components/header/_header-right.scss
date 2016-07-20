@@ -4,10 +4,10 @@
 .site-header .widget-area {
   float: right;
   text-align: right;
-  width: $headerRight__Width;
+  width: $header-right--width;
 
   @media only screen and (max-width: 1200px) {
-    width: $headerRight__Width_LargeScreen;
+    width: $header-right--width-large-screen;
   }
 
   @media only screen and (max-width: 1023px) {
