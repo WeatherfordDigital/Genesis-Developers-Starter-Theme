@@ -7,7 +7,7 @@ body {
   background-color: $body--background-color;
   color: $base__color;
   font-family: $base--font-family;
-  font-size: rem( $base--font-size );
+  @include rem( font-size, $base--font-size );
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   line-height: $base--line-height;

@@ -3,7 +3,7 @@
 //========================
 
 .site-title {
-  font-size: rem( $site-title--font-size );
+  @include rem( font-size, $site-title--font-size );
   font-weight: 700;
   line-height: 1.2;
 

@@ -7,7 +7,7 @@
     border-top: 1px solid $entry-footer__meta--border-color;
     padding-top: 24px;
     margin-bottom: 0;
-    //font-size: rem( $entry-footer__entry-meta--font-size );
+    //@include rem( font-size, $entry-footer__entry-meta--font-size );
   }
 }
 

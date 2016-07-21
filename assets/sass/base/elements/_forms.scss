@@ -7,7 +7,7 @@ textarea {
   background-color: $input--background-color;
   border: 1px solid $input--border-color;
   color: $input--color;
-  font-size: rem( $input--font-size );
+  @include rem( font-size, $input--font-size );
   font-weight: 400;
   padding: 16px;
   width: 100%;
@@ -43,7 +43,7 @@ input[type="submit"],
   border: 0;
   color: $button--color;
   cursor: pointer;
-  font-size: rem( $button--font-size );
+  @include rem( font-size, $button--font-size );
   font-weight: 700;
   padding: 16px 24px;
   text-decoration: none;

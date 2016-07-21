@@ -7,11 +7,11 @@
     width: $content-sidebar-wrap--width;
 
      @include media( $breakpoint__screen-size--larger ) {
-      width: $contentSidebarWrap--larger-screenWidth;
+      width: $content-sidebar-wrap--width-larger-screen;
     }
 
      @include media( $breakpoint__screen-size--large ) {
-      width: $contentSidebarWrap--large-screenWidth;
+      width: $content-sidebar-wrap--width-large-screen;
     }
   }
 

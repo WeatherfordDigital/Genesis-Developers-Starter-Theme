@@ -1,0 +1,21 @@
+{
+  "name": "developers",
+  "version": "1.0.0",
+  "description": "This is a developer-friendly starter child theme for the [Genesis theming framework](http://my.studiopress.com/themes/genesis/) which includes a modular architecture, Sass, gulp, Bourbon, Neat, and Composer.  It is your starting child theme for all of your projects to save you time and moola.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KnowTheCode/Genesis-Developers-Starter-Theme.git"
+  },
+  "author": "hellofromTonya",
+  "license": "GPL-2",
+  "bugs": {
+    "url": "https://github.com/KnowTheCode/Genesis-Developers-Starter-Theme/issues"
+  },
+  "homepage": "https://github.com/KnowTheCode/Genesis-Developers-Starter-Theme#readme",
+  "devDependencies": {
+    "bourbon": "^4.2.6",
+    "bourbon-neat": "^1.7.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

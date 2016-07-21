@@ -5,11 +5,11 @@
   width: $content--width;
 
    @include media( $breakpoint__screen-size--larger ) {
-    width: $content--larger-screenWidth;
+    width: $content--width-larger-screen;
   }
 
    @include media( $breakpoint__screen-size--large ) {
-    width: $content--large-screenWidth;
+    width: $content--width-large-screen;
   }
 
   .content-sidebar-sidebar &,
@@ -18,11 +18,11 @@
     width: $content-both-sidebars--width;
 
      @include media( $breakpoint__screen-size--larger ) {
-      width: $contentBothSidebars--larger-screenWidth;
+      width: $content-both-sidebars--width-larger-screen;
     }
 
      @include media( $breakpoint__screen-size--large ) {
-      width: $contentBothSidebars--large-screenWidth;
+      width: $content-both-sidebars--width-large-screen;
     }
   }
 

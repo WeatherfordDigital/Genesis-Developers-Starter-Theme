@@ -8,6 +8,6 @@
 }
 
 .widget-title {
-  font-size: rem( $widget-title--font-size );
+  @include rem( font-size, $widget-title--font-size );
   margin-bottom: 20px;
 }

@@ -1,4 +1,4 @@
 p.entry-meta {
-  font-size: rem( $entry-meta--font-size );
+  @include rem( font-size, $entry-meta--font-size );
   margin-bottom: 0;
 }

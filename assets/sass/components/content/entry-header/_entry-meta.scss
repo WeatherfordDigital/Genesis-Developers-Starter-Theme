@@ -1,7 +1,7 @@
 .entry-header {
   .entry-meta {
     margin-bottom: 24px;
-    //font-size: rem( $entry-header__entry-meta--font-size );
+    //@include rem( font-size, $entry-header__entry-meta--font-size );
   }
 }
 

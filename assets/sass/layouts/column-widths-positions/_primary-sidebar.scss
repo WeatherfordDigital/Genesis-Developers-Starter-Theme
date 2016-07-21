@@ -5,7 +5,7 @@
   width: $primary-sidebar--width;
 
    @include media( $breakpoint__screen-size--larger ) {
-    width: $primarySidebar--larger-screenWidth;
+    width: $primary-sidebar--width-larger-screen;
   }
 
   .sidebar-content &,
